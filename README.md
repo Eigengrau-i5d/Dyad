@@ -9,7 +9,7 @@ Open `Dyad.html` in Chrome, pick a name, share a room code, and chat. Messages t
 
 ## Get started
 
-1. Download `Dyad.html` from the [latest release](https://github.com/Eigengrau-i5d/Dyad/releases/latest) (or from this repository).
+1. Download `Dyad.html` from the [latest release](https://github.com/Eigengrau-i5d/Dyad/releases/latest).
 2. Open it in Chrome, Edge or another Chromium browser (Chromebooks work). Double-click the file, or drag it into a browser tab.
 3. Choose a display name, then **Create a room** and send the room code to your friends. They open their own copy of `Dyad.html` and **Join a room** with the code.
 
@@ -71,4 +71,4 @@ Compare the result with the checksum in the release notes.
 
 ## Licence
 
-MIT. See [LICENSE](LICENSE). `Dyad.html` bundles no third-party code. It is unminified, so you can read exactly what it does.
+Copyright © 2026 Dyad. All rights reserved. You may run `Dyad.html` for personal, non-commercial use; see [LICENSE](LICENSE). `Dyad.html` bundles no third-party code.

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-mmMDrW7kaVb1wtN4l7NgrWV5lIrFYi9R/zgVMdeKro0='; style-src 'unsafe-inline'; img-src data: blob:; media-src blob: mediastream:; connect-src wss: ws://localhost:* ws://127.0.0.1:*; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-pvbsgpHDa4mrFyXgpLKJG4VtyCQs8VOx6ODTRFcMHz4='; style-src 'unsafe-inline'; img-src data: blob:; media-src blob: mediastream:; connect-src wss: ws://localhost:* ws://127.0.0.1:*; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#f3f4f7">
@@ -521,7 +521,7 @@ textarea.input { height: auto; padding: 10px 12px; resize: vertical; line-height
 <body>
 <div id="app" aria-live="polite"><div class="center-screen"><div class="card" style="text-align:center"><h1>Dyad</h1><p class="lead">Starting…</p><noscript><p>Dyad needs JavaScript to run.</p></noscript></div></div></div>
 <script>
-/*! Dyad 1.0.0 | Private peer-to-peer chat in one file | MIT licence | https://github.com/Eigengrau-i5d/Dyad */
+/*! Dyad 1.0.0 | Private peer-to-peer chat in one file | (c) 2026 Dyad. All rights reserved. */
 /* ---- core/base.js ---- */
 /* Dyad core: shared helpers. No DOM access in core/ files. */
 (() => {
@@ -5890,7 +5890,7 @@ textarea.input { height: auto; padding: 10px 12px; resize: vertical; line-height
         h('p', 'Dyad has no servers of its own, no accounts and no tracking. Devices find each other through public relays that only carry encrypted handshakes, then talk directly over WebRTC. Your history never leaves your devices.'),
         h('div.stack', { style: { gap: '6px' } },
           h('div.hint', 'Encryption: WebRTC DTLS plus AES-256-GCM room keys (PBKDF2-SHA-256). Messages are signed with ECDSA P-256.'),
-          h('div.hint', 'Open source under the MIT licence. No third-party code is bundled.')),
+          h('div.hint', '© 2026 Dyad. All rights reserved. No third-party code is bundled.')),
         h('div.row', { style: { marginTop: '14px' } }, h('button.btn.sm', { onclick: shortcuts }, icon('keyboard', 'sm'), 'Keyboard shortcuts'))
       );
     }
